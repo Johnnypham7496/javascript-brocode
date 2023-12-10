@@ -42,6 +42,9 @@ let age = 101;
 if(age >= 100) {
     console.log("You are TOO OLD for this site");
 }
+else if(age == 0 ){
+    console.log("You can't enter. You were just born");
+}
 else if(age >= 18) {
     console.log("You are old enough to enter this site");
 }
