@@ -43,3 +43,10 @@ if (result) {
 else {
     console.log(userName);
 }
+
+
+
+let phoneNumber = "123-456-7890";
+
+phoneNumber = phoneNumber.replaceAll("-", "/");
+console.log(phoneNumber);
