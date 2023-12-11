@@ -50,3 +50,7 @@ let phoneNumber = "123-456-7890";
 
 phoneNumber = phoneNumber.replaceAll("-", "/");
 console.log(phoneNumber);
+
+
+phoneNumber = phoneNumber.padStart("15", "0");
+console.log(phoneNumber);
