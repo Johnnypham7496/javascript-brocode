@@ -10,3 +10,9 @@ while (userName === "" || userName === null) {
 }
 
 console.log("Hello", userName);
+
+
+// Example of an infinite loop 
+// while (1 == 1){
+//     console.log("HELP! I AM STUCK IN AN INFINITE LOOP!");
+// }
