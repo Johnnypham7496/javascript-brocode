@@ -3,8 +3,16 @@
 // var = variables are limited to a function(){}
 
 
- 
-for(let i = 1; i <= 3; i++) {
-    // console.log(i);
+//  This only exists within our block and not outside meaning "i" variable doesn't exist outside our for loop
+// for(let i = 1; i <= 3; i++) {
+// }
+// console.log(i);
+
+
+
+doSomething();
+function doSomething() {
+    for(var i = 1; i <= 3; i++) {
 }
+};
 console.log(i);
