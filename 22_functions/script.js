@@ -2,12 +2,17 @@
 //            To preform some code, call the function name
 
 
-let userName = "Johnny";
-let age = 27;
+startProgram();
 
-happyBirthday();
+function startProgram() {
+    let userName = "Johnny";
+    let age = 27;
 
-function happyBirthday() {
+    happyBirthday(userName, age);
+}
+
+
+function happyBirthday(userName, age) {
     console.log("Happy birthday to you!");
     console.log("Happy birthday to you!");
     console.log("Happy birthday dear", userName);
