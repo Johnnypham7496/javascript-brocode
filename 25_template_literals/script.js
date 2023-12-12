@@ -18,8 +18,10 @@ let total = 75;
 
 
 let text = 
-`Hello ${userName} 
-You have ${items} items in your cart
-Your total is $${total}`;
+`Hello ${userName}<br>
+You have ${items} items in your cart<br>
+Your total is $${total}<br>`;
 
-console.log(text);
+// console.log(text);
+
+document.getElementById("myLabel").innerHTML = text;
