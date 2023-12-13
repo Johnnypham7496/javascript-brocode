@@ -9,13 +9,16 @@
 
  let myNum = 123456.789;
 
+// This is like how to choose what language a user wants to format their data in
 // myNum = myNum.toLocaleString("en-US"); // US English
 // myNum = myNum.toLocaleString("hi-IN"); // Hindi
 // myNum = myNum.toLocaleString("de-DE"); // standard German
 
 
 // This is how to format a number in currency
-myNum = myNum.toLocaleString("en-US", {style: "currency", currency: "USD"});
+// myNum = myNum.toLocaleString("en-US", {style: "currency", currency: "USD"});
+// myNum = myNum.toLocaleString("hi-IN", {style: "currency", currency: "INR"});
+// myNum = myNum.toLocaleString("de-DE", {style: "currency", currency: "EUR"});
 
 
 
