@@ -3,6 +3,9 @@
 
 
 let fruits = ["apple", "orange", "banana"];
+// fruits[0] = "coconut";
+
+fruits.push("lemon"); // add an element
 
 console.log(fruits);
 
