@@ -4,6 +4,11 @@
 //                   arguments are expected 
 //                   (unpacks the elements)
 
+let userName = "Johnny";
+
+
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 console.log(numbers);
 console.log(...numbers);
+
+console.log(...userName);
