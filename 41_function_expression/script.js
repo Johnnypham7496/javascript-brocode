@@ -8,3 +8,17 @@ const greeting = function(){
 }
 
 greeting();
+
+
+let count = 0;
+
+
+function increaseCount(){
+    count++;
+    document.getElementById("increaseButton").innerHTML = count;
+}
+
+function decreaseCount(){
+    count--;
+    document.getElementById("decreaseButton").innerHTML = count;
+}
