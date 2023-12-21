@@ -12,13 +12,24 @@ greeting();
 
 let count = 0;
 
-
-function increaseCount(){
+document.getElementById("increaseButton").onclick = function(){
     count++;
-    document.getElementById("increaseButton").innerHTML = count;
+    document.getElementById("myLabel").innerHTML = count;
 }
 
-function decreaseCount(){
+
+document.getElementById("decreaseButton").onclick = function(){
     count--;
-    document.getElementById("decreaseButton").innerHTML = count;
+    document.getElementById("myLabel").innerHTML = count;
 }
+
+
+// function increaseCount(){
+//     count++;
+//     document.getElementById("myLabel").innerHTML = count;
+// }
+
+// function decreaseCount(){
+//     count--;
+//     document.getElementById("myLabel").innerHTML = count;
+// }
