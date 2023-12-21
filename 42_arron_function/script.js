@@ -2,3 +2,6 @@
 // =>
 
 
+const greeting = (userName) => console.log(`hello ${userName}`);
+
+greeting("Johnny");
