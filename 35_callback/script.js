@@ -1,12 +1,11 @@
 // callback = a function passed as an argument to another function
 
 
-let total = sum(2, 3);
-displayDOM(total);
+sum(2, 3, displayDOM);
 
-function sum(x, y) {
+function sum(x, y, callback) {
     let result = x + y;
-    return result
+    callback(result);
 }
 
 function displayConsole(output) {
