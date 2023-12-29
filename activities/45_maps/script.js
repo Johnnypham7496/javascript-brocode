@@ -8,4 +8,16 @@ let store = new Map([
     ["underwear", 50]
 ]);
 
+
+let shoppingCart = 0;
+
+shoppingCart += store.get("t-shirt");
+
+
+store.set("hat", 40);
+store.delete("hat");
+store.has("t-shirt");
+console.log(store.size);
+
+
 store.forEach((value, key) => console.log(`${key} $${value}`));
